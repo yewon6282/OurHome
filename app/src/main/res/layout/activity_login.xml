@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ourhome_logo"
+        android:src="@drawable/ourhome_logo"
+        android:contentDescription="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp" />
+
+    <EditText
+        android:id="@+id/id_edit"
+        android:inputType="text"
+        android:hint="@string/id"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dark_blue_border" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dark_blue_border" />
+
+</LinearLayout>

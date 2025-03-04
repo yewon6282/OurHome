@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OurHome</string>
+    <string name="id">id</string>
+    <string name="password">password</string>
+    <string name="title">title</string>
+    <string name="content">content</string>
+</resources>
