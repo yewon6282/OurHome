@@ -4,4 +4,9 @@
     <string name="password">password</string>
     <string name="title">title</string>
     <string name="content">content</string>
+    <string name="main_fragment">main fragment</string>
+    <string name="mypage_fragment">mypage fragment</string>
+    <string name="home_icon">home icon</string>
+    <string name="board_icon">board icon</string>
+    <string name="mypage_icon">mypage icon</string>
 </resources>
