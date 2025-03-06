@@ -6,37 +6,53 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/ourhome_logo"
-        android:src="@drawable/ourhome_logo"
-        android:contentDescription="@string/app_name"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="200dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/id_edit"
-        android:inputType="text"
-        android:hint="@string/id"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="1dp"
-        android:padding="10dp"
-        android:layout_gravity="center"
-        android:background="@drawable/dark_blue_border" />
+        <ImageView
+            android:id="@+id/ourhome_logo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ourhome_logo" />
 
-    <EditText
-        android:id="@+id/password_edit"
-        android:inputType="textPassword"
-        android:hint="@string/password"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:padding="10dp"
-        android:layout_gravity="center"
-        android:background="@drawable/dark_blue_border" />
+        <EditText
+            android:id="@+id/id_edit"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/dark_blue_border"
+            android:hint="@string/id"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/dark_blue_border"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_button"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/dark_blue"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
 
 </LinearLayout>

@@ -9,4 +9,5 @@
     <string name="home_icon">home icon</string>
     <string name="board_icon">board icon</string>
     <string name="mypage_icon">mypage icon</string>
+    <string name="login">login</string>
 </resources>

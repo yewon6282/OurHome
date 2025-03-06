@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767158068662",
+    "project_id": "ourhome-login-e29f2",
+    "storage_bucket": "ourhome-login-e29f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767158068662:android:53b465b73fd0d8509e0d17",
+        "android_client_info": {
+          "package_name": "com.yw_kim.ourhome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWwtyAer2ZNLnXzy2SVP3dmpCpzdWaKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
