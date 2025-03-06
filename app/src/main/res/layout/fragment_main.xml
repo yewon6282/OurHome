@@ -8,16 +8,10 @@
     android:orientation="vertical"
     tools:context=".MainFragment">
 
-    <!--<androidx.recyclerview.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />-->
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/main_fragment"
-        android:textSize="30sp" />
+        android:layout_height="match_parent" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +24,7 @@
             android:src="@drawable/home_icon"
             android:contentDescription="@string/home_icon"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:scaleType="centerInside"
@@ -41,7 +35,7 @@
             android:src="@drawable/board_icon"
             android:contentDescription="@string/board_icon"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:scaleType="centerInside"
@@ -52,7 +46,7 @@
             android:src="@drawable/mypage_icon"
             android:contentDescription="@string/mypage_icon"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:scaleType="centerInside"

@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="80dp"
     android:padding="10dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/dark_blue_border">
 
     <TextView
         android:id="@+id/recyclerview_title"
