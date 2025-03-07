@@ -1,13 +1,19 @@
 <resources>
     <string name="app_name">OurHome</string>
-    <string name="id">id</string>
+    <string name="email">email</string>
     <string name="password">password</string>
+    <string name="password_check">password check</string>
+    <string name="login">login</string>
+    <string name="logout"><u>logout</u></string>
+    <string name="join"><u>join</u></string>
+    <string name="join_button">join</string>
     <string name="title">title</string>
     <string name="content">content</string>
+    <string name="save">save</string>
     <string name="main_fragment">main fragment</string>
     <string name="mypage_fragment">mypage fragment</string>
     <string name="home_icon">home icon</string>
-    <string name="board_icon">board icon</string>
+    <string name="add_icon">board icon</string>
     <string name="mypage_icon">mypage icon</string>
-    <string name="login">login</string>
+    <string name="back_icon">back icon</string>
 </resources>

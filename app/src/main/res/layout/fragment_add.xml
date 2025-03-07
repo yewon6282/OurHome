@@ -6,15 +6,47 @@
     android:layout_height="match_parent"
     android:paddingTop="24dp"
     android:orientation="vertical"
-    tools:context=".MypageFragment">
+    tools:context=".MainFragment">
 
-    <TextView
-        android:id="@+id/logout_button"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_gravity="center"
-        android:text="@string/logout"
-        android:textSize="11sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="90dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/title"
+            android:background="@drawable/dark_blue_border" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+            android:padding="10dp"
+            android:gravity="start"
+            android:text="@string/content"
+            android:background="@drawable/dark_blue_border"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@color/dark_blue"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -56,4 +88,5 @@
             android:background="@android:color/transparent" />
 
     </LinearLayout>
+
 </FrameLayout>
