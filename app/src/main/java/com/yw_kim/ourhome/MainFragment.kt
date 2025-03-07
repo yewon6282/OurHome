@@ -66,8 +66,8 @@ class MainFragment : Fragment() {
             it.findNavController().navigate(R.id.action_mainFragment_self)
         }
 
-        view.findViewById<ImageButton>(R.id.un_button).setOnClickListener {
-
+        view.findViewById<ImageButton>(R.id.add_button).setOnClickListener {
+            it.findNavController().navigate(R.id.action_mainFragment_to_addFragment)
         }
 
         view.findViewById<ImageButton>(R.id.mypage_button).setOnClickListener {

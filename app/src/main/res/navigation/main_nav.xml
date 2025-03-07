@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_self"
             app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_addFragment"
+            app:destination="@id/addFragment" />
     </fragment>
     <fragment
         android:id="@+id/mypageFragment"
@@ -28,5 +31,23 @@
         <action
             android:id="@+id/action_mypageFragment_self"
             app:destination="@id/mypageFragment" />
+        <action
+            android:id="@+id/action_mypageFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.yw_kim.ourhome.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_mypageFragment"
+            app:destination="@id/mypageFragment" />
+        <action
+            android:id="@+id/action_addFragment_self"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_addFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
 </navigation>
